@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #070708;
+}
+
+
+body {
+    background-color: #070708;
+}
+
+/* header */
+
+.officeAddress {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.main-card {
+    position: relative;
+    overflow: hidden;
+    transition: background-image 0.7s ease-in-out;
+    padding: 1.5rem 1rem;
+}
+
+.main-card:hover {
+    background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2022/01/07/NASCAR_FanCouncil_DaytonaFanPhoto_1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    color: #fff;
+}
+
+.main-card svg,
+.main-card h3,
+.main-card p {
+    position: relative;
+    z-index: 1;
+    background: none;
+    color: #aaa8a8;
+    font-weight: 400;
+}
+
+.main-card p:hover {
+    color: #fff !important;
+}
+
+
+.contactForm {
+    width: 867px;
+    margin: 70px auto 0;
+    background: #000;
+    padding: 80px 100px 35px;
+}
+
+@media (max-width: 992px) {
+    .contactForm {
+        width: 100%;
+        margin: 70px auto 0;
+        background: #000;
+        padding: 80px 100px 35px;
+    }
+
+}
+
+
+/* Contact Form */
+
+#contact-form input {
+    background-color: #000;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 0;
+    padding: 1rem 0;
+}
+
+#contact-form select {
+    background-color: #000;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 0;
+    padding: 1rem 0;
+}
+
+.form-button {
+    background-color: #f15e31;
+    color: #fff;
+    text-transform: capitalize !important;
+    border-radius: 0px;
+    padding: 7px 40px;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-out .5s;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captchaNumber {
+    position: relative;
+}
+
+.captchaNumber p {
+    position: absolute;
+    right: 0;
+    top: 1.3rem;
+    color: #fff;
+}
+
+.companyName::placeholder {
+    color: #aaa8a8;
+}
+
+.contactForm select {
+    color: #aaa8a8;
+}
+
+.contactForm option {
+    color: #aaa8a8;
+}
+
+
+
+/* FAQ */
+
+#faq {
+    color: #000 !important;
+}
+
+#faq .accordion-button {
+    background-color: #070708;
+    color: #fff;
+    /* border: 1px solid rgba(0,0,0,.125); */
+}
+
+.accordion-button.collapsed {
+    background: black
+}
+
+.accordion-button {
+    background: black !important;
+    color: white !important;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: url("./images/up.svg") !important;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    /* Icon when collapsed */
+}
+
+.card-header {
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+
+.accordion-button.collapsed::after {
+    color: #fff;
+}
+
+.accordion-button.collapsed::before {
+    color: #fff;
+}
+
+.accordion-body {
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+/* Footer Form */
+
+.footer-form p {
+    color: #aaa8a8;
+}
+
+.footer-form h6 {
+    color: #fff;
+}
+
+.quicklinks,
+.locations,
+.address {
+    font-size: 13px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.quicklinks,
+.locations,
+.address p {
+    color: #aaa8a8;
+}
+
+
+
+.quicklinks,
+a {
+    text-decoration: none !important;
+}
+
+.locations a {
+    text-decoration: none !important;
+}
+
+.address a:hover {
+    color: #f15e314d !important;
+}
+
+.locations p:hover {
+    color: #f15e314d !important;
+}
+
+.quicklinks a:hover {
+    color: #f15e314d !important;
+}
+
+.footerMain p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown-menu a:hover {
+    color: #f15e31 !important;
+}
+
+.offcanvas {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.nav-item-new a {
+    font-size: 14px;
+    padding: 10px 0 10px 10px;
+    padding-right: 10px;
+}
+
+.nav-link-new {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 10px 0;
+    color: #aaa8a8;
+    padding-left: 10vw;
+}
+
+.nav-link-new::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s;
+    color: #aaa8a8;
+}
+
+.nav-link-new:hover::before {
+    width: 35%;
+}
+
+.btn-close:hover img {
+    transition: transform 0.6s;
+    transform: rotate(90deg);
+}

@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CreativeWebo Assignmment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<style>
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .address-section p:hover {
+        color: #f15e314d !important;
+    }
+</style>
+
+<body>
+    <div style="padding: 1rem 1.5rem;">
+        <div style="border: 1px solid #f15e314d;">
+            <header class="header">
+
+                <nav class="navbar navbar-expand-lg navbar-light d-lg-none">
+                    <div class="container-fluid ms-lg-5  me-lg-5 ">
+                        <a class="navbar-brand" href="#"><img src="./images/logo.png" height="30px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="height: 30px;"
+                                fill="#fff">
+                                <path
+                                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                            </svg>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">+91-9080231234</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Case studies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact us</a>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu text-white" style="background-color: black;"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item text-white" href="#">Website Development</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">App Development action</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">IT OutSourcing</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Manage Services</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Branding</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Digital Marketing</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Location
+                                    </a>
+                                    <ul class="dropdown-menu text-white" style="background-color: black;"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item text-white" href="#">Mumbai</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Pune</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">UAE</a></li>
+                                        <li><a class="dropdown-item text-white" href="#">Torronto</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="container-fluid d-none d-lg-block" style="position: relative;">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid ms-3 me-3 ">
+                            <a class="navbar-brand" href="#"><img src="./images/logo.png" height="30px"></a>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item-new me-3">
+                                        <a class="nav-link text-white" href="#"><img src="./images/phone.svg"
+                                                style="height: 12px; width: 12px;"> +91-9080231234</a>
+                                    </li>
+                                    <li class="nav-item-new me-3 dropdown ">
+                                        <a class="nav-link dropdown-toggle text-white" href="#"
+                                            id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu text-white" style="background-color: black;"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item text-white" href="#">Website Development</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-white" href="#">App Development action</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-white" href="#">IT OutSourcing</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Manage Services</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Branding</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Digital Marketing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item-new me-3 dropdown ">
+                                        <a class="nav-link dropdown-toggle text-white" href="#"
+                                            id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                                            Location
+                                        </a>
+                                        <ul class="dropdown-menu text-white" style="background-color: black;"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item text-white" href="#">Mumbai</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Pune</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">UAE</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Torronto</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item-new me-3">
+                                        <a class="nav-link active text-white" aria-current="page" href="#">Case
+                                            studies</a>
+                                    </li>
+                                    <li class="nav-item-new me-3">
+                                        <a class="nav-link text-white" href="#">Contact us</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+
+                    <button type="button" class="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"
+                        style="float: right; top: 0px; margin-right:0px; position: absolute; right: 0; padding: 10px; border-left: 1px solid #f15e314d; border-bottom: 1px solid #f15e314d; border-top: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="height: 30px; width:30px"
+                            fill="#fff">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                    </button>
+
+                </div>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close" style="position: relative;"><img src="./images/cross.svg"
+                                style="height: 40px; width: 40px; position: absolute; top: 0; right: 15px;" /></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            <div class="container-fluid d-flex justify-content-between">
+                                <div class="inside-navbar">
+                                    <ul class="navbar-nav ">
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new active text-white" aria-current="page" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Case
+                                                Studies</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Careers</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link-new text-white" href="#"
+                                                style="font-size: 45px; line-height: 3rem;">Location</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="address-section" style="padding-right: 10vw;">
+                                    <h5 class="fs-5 text-white">Visit Our Office</h5>
+                                    <p class="text-secondary">
+                                        1805, Haware Infotech Park, Vashi, Navi Mumbai - 400703
+                                    </p>
+                                    <p class="text-secondary">
+                                        30 Eglinton West Commercial Center, Mississauga, Ontario L5R 3E7
+                                    </p>
+                                    <p class="text-secondary">
+                                        Tupe Patil Road, Amanora Park Town, Hadapsar, <br /> pune Maharastra 400123</p>
+                                    <h5 class="fs-5 text-white mt-2">Contact US</h5>
+                                    <p class="mb-0 text-secondary">+91-9004480375</p>
+                                    <p class="mb-0 text-secondary">+91-9004480375</p>
+                                    <p class="mb-0 text-secondary">+91-9004480375</p>
+                                    <h5 class="fs-5 text-white mt-4 mb-4">Follow Us</h5>
+                                    <div class="d-flex justify-content-between" style="width: 50%;">
+                                        <p><img src="./images/linkdin.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px;">
+                                        </p>
+                                        <p><img src="./images/instagram.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #fd5ec0; padding: 6px;">
+                                        </p>
+                                        <p><img src="./images/facebook.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px;">
+                                        </p>
+                                        <p><img src="./images/twitter.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #00c3ff; padding: 6px;">
+                                        </p>
+                                        <p><img src="./images/facebook.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px;">
+                                        </p>
+                                        <p><img src="./images/twitter.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #00c3ff; padding: 6px; ">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section id="services">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h2 class="text-white">Services provided by CreativeWebo</h2>
+                        </div>
+                        <div class="col-lg-4">
+                            <p style="color: #aaa8a8;">We promote digital evolutions to help you achieve business
+                                objectives
+                                effortlessly.</p>
+                        </div>
+                        <div class="col-lg-4">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="main-card ">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                                    style="height: 50px; width:50px" fill="#f15e31">
+                                    <path
+                                        d="M80 0C44.7 0 16 28.7 16 64V448c0 35.3 28.7 64 64 64H304c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H80zm80 432h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H160c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+                                </svg>
+                                <h3 class="text-white mt-2">Software Solution</h3>
+                                <p>We are the best android app development
+                                    CreativeWebo prides its expertise in creating custom software solutions for
+                                    various sectors. We can build everything from custom-to-service sales
+                                    software to a company's unique ERP system.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="main-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="height: 50px; width:50px"
+                                    viewBox="0 0 448 512">
+                                    <path fill="#f15e31"
+                                        d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM176 432h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+                                </svg>
+                                <h3 class="text-white mt-2">Mobile Apps</h3>
+                                <p>Android or iOS, sometimes both!
+                                    CreativeWebo understands your target audience and helps you develop the best
+                                    mobile applications for your customers. So take your product a mile ahead
+                                    with a mobile app development service by CreativeWebo. We can take care of
+                                    android app development and iOS app development for you.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="main-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="height: 50px; width:50px"
+                                    viewBox="0 0 448 512" fill="#f15e31">
+                                    <path
+                                        d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM176 432h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+                                </svg>
+                                <h3 class="text-white mt-2">Website Development</h3>
+                                <p>
+                                    Websites are like stores now! No matter how you deliver, websites play a
+                                    role in authenticating businesses to their audience. At CreativeWebo, we
+                                    provide complete web development solutions to our clients. We have a team of
+                                    experts in custom websites, CMS-based websites, WordPress websites and
+                                    Shopify Ecommerce website development.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="main-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                                    style="height: 50px; width:50px" fill="#f15e31">
+                                    <path
+                                        d="M0 336c0 79.5 64.5 144 144 144H512c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z" />
+                                </svg>
+                                <h3 class="text-white mt-2">E-commerce Solution</h3>
+                                <p>
+                                    Are you planning to launch a product in the market? Have you considered
+                                    digital presence? At CreativeWebo, our E-commerce solutions include
+                                    e-commerce app development, e-commerce website design and development and
+                                    complete integration with Delivery and payment apps for your E-commerce
+                                    Website.
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="main-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="height: 50px; width:50px"
+                                    viewBox="0 0 448 512" style="height: 50px; width:50px" fill="#f15e31">
+                                    <path
+                                        d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM176 432h96c8.8 0 16 7.2 16 16s-7.2 16-16 16H176c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
+                                </svg>
+                                <h3 class="text-white mt-2">Digital Branding & Marketing</h3>
+                                <p>
+                                    Start Now! If you haven't yet. Branding and Marketing are the drivers of
+                                    business growth worldwide. We take care of your front, back and driver end
+                                    together. CreativeWebo offers our clients complete Digital Branding and
+                                    Digital Marketing solutions, including Logo Designing, Corporate Stationery,
+                                    SEO, Web Content Creation, Social Media and Paid Campaigns.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="main-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    style="height: 50px; width:50px" viewBox="0 0 448 512" fill="#f15e31">
+                                    <path
+                                        d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z" />
+                                </svg>
+                                <h3 class="text-white mt-2">Manage IT Services</h3>
+                                <p>
+                                    At CreativeWebo, our IT experts chart your company's best hosting, domain,
+                                    server and email solutions. We help you plan for future traffic on your
+                                    website, apps and ERPs. In addition, CreativeWebo provides supportive IT
+                                    services for your digital transformation.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact-form">
+                <div class="container">
+                    <div class="contactForm">
+                        <h3 class="text-center text-white" style="background: none;"><img
+                                src="./images/slash-forward.svg"> Book an Appointment</h3>
+                        <form>
+                            <div class="mb-0">
+                                <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                    placeholder="Full Name">
+                            </div>
+                            <div class="mb-0">
+                                <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
+                            <div class="mb-0">
+                                <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                    placeholder="Phone Number">
+                            </div>
+                            <div class="mb-0">
+                                <input type="email" class="form-control shadow-none companyName"
+                                    id="exampleFormControlInput1" placeholder="Company Name">
+                            </div>
+                            <div class="mb-0">
+                                <select class="form-select shadow-none" aria-label="Default select example">
+                                    <option selected>Select Budget</option>
+                                    <option value="1">Rs 3 Lakh - Rs 5 Lakh</option>
+                                    <option value="2">Rs 5 Lakh - Rs 7 Lakh</option>
+                                    <option value="3">Rs 7 Lakh - Rs 5 Lakh</option>
+                                </select>
+                            </div>
+                            <div class="mb-0">
+                                <select class="form-select shadow-none" aria-label="Default select example">
+                                    <option selected>Select Service</option>
+                                    <option value="1">WebSite Development</option>
+                                    <option value="2">UI/IX Design</option>
+                                    <option value="3">Mobile App Developmet</option>
+                                </select>
+                            </div>
+                            <div class="mb-0 captchaNumber">
+                                <input type="email" class="form-control shadow-none" id="exampleFormControlInput1"
+                                    placeholder="Captcha">
+                                <p>897656</p>
+
+                            </div>
+                            <div class="mb-0 formButton" style="background: none;">
+                                <button class="form-button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section id="faq">
+                <div class="container mt-4">
+                    <h2 class="text-center text-white">Frequently Asked Questions</h2>
+                    <p class="text-center text-white">Learning Experience</p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card-header mb-4">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button shadow-none fs-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        How much does a website cost?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Well, it depends. We follow a transparent pricing model, with rates being
+                                        decided as per
+                                        your requirements. We don't offer one-for-all services but business-specific
+                                        solutions,
+                                        so
+                                        the prices can vary. If all you need is a small business functional website, the
+                                        cost
+                                        can
+                                        range anywhere between $500 and $5,000, and more depending upon your
+                                        requirements. So,
+                                        get
+                                        in touch with us to get a price quote now.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header mb-4">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button shadow-none fs-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        Do you do graphic design, and Can?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Of course. We are the best web design company in India with a team of expert
+                                        graphic
+                                        designers that provide your brand with a unique identity with a custom-made
+                                        logo. We
+                                        understand the personality of your brand and the preferences of your audience to
+                                        craft a
+                                        logo that helps you put out your message clearly. Besides, we offer unlimited
+                                        revisions
+                                        to ensure you walk away satisfied
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header mb-4">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button shadow-none fs-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        Can you help me with Digital Marketing?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes, of course. Our android app development company in India also offers a full
+                                        suite of digital solutions to help you generate more revenue online. We provide
+                                        various
+                                        services, including website development, SEO, content marketing, eCommerce,
+                                        social media
+                                        marketing, paid advertisement, and mobile development. Whatever your digital
+                                        requirements are, we'll take care of them all.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header mb-4">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button shadow-none fs-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        Do you make custom applications?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes. If your business requires custom applications, we create innovative,
+                                        intuitive,
+                                        and user-friendly mobile & web applications using cutting-edge technologies. As
+                                        a
+                                        trustworthy custom application development company, we understand the relevance
+                                        of
+                                        mobile presence, and we make sure your business leverages the best of mobile
+                                        platforms with customized mobile app development India. In addition, we create
+                                        desktop solutions as well, such as web apps and enterprise solutions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header mb-4">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button shadow-none fs-5" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        What is blockchain? What's the main use of it in web
+                                        applications?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="collapseFive" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Blockchain is a decentralized, distributed ledger that records the origin of
+                                        digital
+                                        assets. Blockchain as a service can be used in web application development to
+                                        support the growth of a technology stack. We can use an open blockchain for your
+                                        application to create a private network with the help of blockchain software.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <Footer id="footer-form mt-5">
+                <!-- Footer -->
+                <footer class="text-center text-lg-start text-muted">
+
+                    <!-- Section: Links  -->
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row mt-3">
+                                <div class="col-md-12 col-lg-4  mx-auto mb-4 footerMain">
+                                    <h6 class=" fw-bold mb-4 text-left text-white">
+                                        <a class="navbar-brand" href="#"><img src="./images/logo.png" height="30px"></a>
+                                    </h6>
+                                    <p style="color:  #aaa8a8;">
+                                        CreativeWebo is a Mumbai based digital agency. We are equipped with cutting-edge
+                                        technologies to empower businesses online. Our solutions ensure a comprehensive
+                                        digital
+                                        transformation of your brand. We use multiple channels are proven strategies to
+                                        provide
+                                        you with the best in class digital solutions
+                                    </p>
+                                </div>
+
+                                <div class="col-md-12 col-lg-2  mx-auto mb-4 quicklinks">
+                                    <!-- Links -->
+                                    <h6 class=" fw-500 mb-4 text-white">
+                                        Quick Links
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">Home</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Servies</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Solution</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Career</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Case Studies</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Blog</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Contact Us</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Sitemap </a>
+                                    </p>
+                                </div>
+
+                                <div class="col-md-12 col-lg-4  mx-auto mb-4 address">
+                                    <!-- Links -->
+                                    <h6 class=" fw-500 mb-4">
+                                        Mumbai
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                                            </svg> +919004480375 / +918928309813</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z" />
+                                            </svg> Hr@Creativewebo.Com</a>
+                                    </p>
+                                    <p class="text-secondary">
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> 1805, Haware Infotech Park, Vashi, Navi Mumbai -
+                                            400703</a>
+                                    </p>
+                                    <h6 class="text-uppercase fw-500 mb-4">
+                                        Pune
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                                            </svg> +1 647-948-9165</a>
+                                    </p>
+                                    <p class="text-secondary">
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> 1805, Haware Infotech Park, Vashi, Navi Mumbai -
+                                            400703</a>
+                                    </p>
+                                    <h6 class="text-uppercase fw-500 mb-4">
+                                        Torronto/Canada
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                                            </svg> +1 647-948-9165</a>
+                                    </p>
+                                    <p class="text-secondary">
+                                        <a href="#!" class="text-reset"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 384 512" style="height: 12px; width:12px" fill="#f15e31"
+                                                class="me-1">
+                                                <path
+                                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                                            </svg> 1805, Haware Infotech Park, Vashi, Navi Mumbai -
+                                            400703</a>
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-12 col-lg-2  mx-auto mb-md-0 mb-4 locations">
+                                    <!-- Links -->
+                                    <h6 class=" fw-500 mb-4 text-white">Locations</h6>
+                                    <p> Mumbai</p>
+                                    <p> Pune</p>
+                                    <p> Dubai</p>
+                                    <p> Torronto</p>
+
+                                    <h6 class=" fw-500 mb-3 text-white">Follow Us</h6>
+                                    <div class="">
+                                        <span><img src="./images/linkdin.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                        <span><img src="./images/instagram.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #fd5ec0; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                        <span><img src="./images/facebook.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                        <span><img src="./images/twitter.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #00c3ff; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                        <br />
+                                        <span><img src="./images/facebook.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #5e5efd; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                        <span><img src="./images/twitter.svg"
+                                                style="height: 30px; width: 30px; border-radius: 50%; background: #00c3ff; padding: 6px; margin-right: 15px; margin-bottom: 10px; margin-top: 7px;">
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                        </div>
+                    </section>
+                    <!-- Section: Links  -->
+
+                    <!-- Copyright -->
+                    <div class="text-center p-2 text-secondary"
+                        style="background-color: rgba(0, 0, 0, 0.05); font-size: 13px; border-top: 1px solid #f15e314d;">
+                        © 2023 CreativeWebo Private Limited. All rights reserved.
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+            </Footer>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
